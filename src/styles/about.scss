@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Roboto:wght@100;300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+
+.about{
+    // height: 100vh;
+    width: 100vw;
+    padding: 5rem 0;
+    // background-color: azure;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+    
+
+
+    .heroWrapper {
+        box-sizing: border-box;
+        // margin-left: 58px;
+        padding: 0 12rem;
+        width: 90vw;
+        border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        gap: 2rem;
+        .info {
+            margin-top: 20px;
+            width: 540px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .welcome {
+                font: 400 18px "Poppins";
+                text-transform: uppercase;
+            }
+            >h1 {
+                font: 600 50px "Poppins";
+            }
+            >p {
+                font: 400 15px "Poppins";
+                line-height: 27px;
+            }
+            >span {
+                a {
+                    >button {
+                        border: none;
+                        outline: none;
+                        padding: 15px 30px;
+                        background-color: rgb(74, 74, 193);
+                        color: #FFFF;
+                        cursor: pointer;
+                    }
+                }
+            }
+            // border: 1px solid blue;
+        }
+        .homeimage {
+            width: 50%;
+            // display: flex;
+            .inner {
+                height: 200px;
+                width: 260px;
+                position: relative;
+                left: 278px;
+                bottom: 389px;
+                background-color: #a6b1f0;
+                z-index: -1;
+            }
+            // border: 1px solid blue;
+            >img {
+                height: 350px;
+                width: 500px;
+                object-fit: cover;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }

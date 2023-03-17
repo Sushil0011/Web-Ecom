@@ -1,0 +1,57 @@
+.container-contact {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+    gap: 4rem;
+
+    >h2 {
+        font: 400 2rem "Roboto";
+    }
+
+
+    .form_container {
+        >form {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            width: 25vw;
+
+            >input {
+                padding: 15px 30px;
+font:300 18px "Poppins";
+                outline: none;
+            }
+            >textarea {
+                padding: 30px 30px;
+                outline: none;
+                font:300 15px "Poppins";
+
+            }
+
+            >button {
+                border: none;
+                outline: none;
+                padding: 15px 30px;
+                background-color: rgb(74, 74, 193);
+                color: #FFFF;
+                cursor: pointer;
+                font: 500 20px "Poppins";
+                letter-spacing: 1px;
+
+                &:hover{
+                    // background-color: ;
+                    background-color: rgb(27, 27, 221);
+                    transform: scaleX(1.01);
+                    transition: 0.3s;
+
+            
+
+                }
+            }
+
+        }
+    }
+}

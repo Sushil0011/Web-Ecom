@@ -1,0 +1,27 @@
+.trustedWrapper{
+    height: 250px;
+width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color:rgba(218, 212, 243, 0.616) ;
+
+>h3{
+    font: 400 1.5rem "Poppins";
+}
+    .brands{
+        width:inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8.5rem;
+
+
+        >img{
+            width:140px;
+            object-fit: cover;
+        }
+    }
+}
