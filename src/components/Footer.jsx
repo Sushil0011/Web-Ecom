@@ -17,7 +17,7 @@ const Footer = () => {
     <h3>Web Store</h3>
     <h4>Welcome to web store <br></br>
         <span>
-        shop whtaevevr you want</span>
+        Shop whatever you want</span>
     </h4>
 </div>
 
